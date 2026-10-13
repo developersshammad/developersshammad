@@ -1,152 +1,113 @@
-<!-- ════════════════════════════════════════════════════════════
-     README for github.com/developersshammad
-     Theme: AMOLED black (#000000) with neon cyan (#00E5FF)
-     ════════════════════════════════════════════════════════════ -->
+<!--
+  Profile README for github.com/developersshammad
+  Theme: AMOLED black, silver text, one ice-blue accent (#9CC8FF), matching my portfolio.
+  The animated SVGs in /assets are generated (text converted to paths), so they look the same on every device.
+-->
 
-<!-- HEADER BANNER -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:000000,60:002B33,100:00E5FF&section=header&text=Muhammad%20Hammad&fontSize=58&fontColor=00E5FF&fontAlignY=36&desc=Full%20Stack%20Developer&descSize=20&descAlignY=58&animation=fadeIn" alt="Muhammad Hammad — Full Stack Developer" />
+  <img src="./assets/banner.svg" width="100%" alt="Muhammad Hammad — Full-Stack Developer. I build digital experiences from interface to backend." />
 </p>
 
-<!-- TYPING HEADLINE -->
 <p align="center">
-  <a href="https://github.com/developersshammad">
-    <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=00E5FF&center=true&vCenter=true&width=640&height=48&lines=Full+Stack+Developer;Front+ends+in+HTML%2C+CSS+and+JavaScript;Back+ends+in+PHP+and+MySQL;Responsive+layouts+with+Bootstrap+5;Writing+C%23+in+Visual+Studio" alt="Typing headline" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=9CC8FF&center=true&vCenter=true&width=720&height=44&lines=Responsive+interfaces+in+HTML%2C+CSS+and+JavaScript;Backends+in+PHP%2C+MySQL+and+ASP.NET+Core;Desktop+apps+in+C%23+with+Visual+Studio;3D%2C+scroll+stories+and+Web+Audio+on+the+web" alt="Responsive interfaces in HTML, CSS and JavaScript. Backends in PHP, MySQL and ASP.NET Core. Desktop apps in C#. 3D, scroll stories and Web Audio on the web." />
 </p>
 
-<!-- QUICK BADGES -->
 <p align="center">
-  <a href="https://github.com/developersshammad"><img src="https://komarev.com/ghpvc/?username=developersshammad&label=PROFILE+VIEWS&color=00E5FF&style=for-the-badge&labelColor=000000" alt="Profile views" /></a>
-  <a href="https://github.com/developersshammad?tab=followers"><img src="https://img.shields.io/github/followers/developersshammad?label=FOLLOW&style=for-the-badge&color=00E5FF&labelColor=000000&logo=github&logoColor=00E5FF" alt="Follow on GitHub" /></a>
+  <a href="mailto:hammad.10.muhammad@gmail.com"><img src="https://img.shields.io/badge/Email-hammad.10.muhammad%40gmail.com-9CC8FF?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=9CC8FF&color=000000" alt="Email hammad.10.muhammad@gmail.com" /></a>
+  <a href="https://github.com/developersshammad/hammads-portfolio"><img src="https://img.shields.io/badge/Portfolio-View%20the%20code-9CC8FF?style=for-the-badge&logo=googlechrome&logoColor=000000&labelColor=9CC8FF&color=000000" alt="Portfolio" /></a>
+  <a href="https://github.com/developersshammad?tab=followers"><img src="https://img.shields.io/github/followers/developersshammad?label=Follow&style=for-the-badge&logo=github&logoColor=000000&labelColor=9CC8FF&color=000000" alt="Follow on GitHub" /></a>
+  <img src="https://komarev.com/ghpvc/?username=developersshammad&label=Profile%20views&color=000000&style=for-the-badge&labelColor=9CC8FF" alt="Profile views" />
 </p>
 
-<!-- TABLE OF CONTENTS -->
 <p align="center">
   <a href="#about"><b>About</b></a> &nbsp;·&nbsp;
-  <a href="#tech-stack"><b>Tech Stack</b></a> &nbsp;·&nbsp;
-  <a href="#projects"><b>Projects</b></a> &nbsp;·&nbsp;
-  <a href="#github-stats"><b>GitHub Stats</b></a> &nbsp;·&nbsp;
-  <a href="#contribution-activity"><b>Activity</b></a>
+  <a href="#tech-stack"><b>Tech stack</b></a> &nbsp;·&nbsp;
+  <a href="#featured-work"><b>Featured work</b></a> &nbsp;·&nbsp;
+  <a href="#more-builds"><b>More builds</b></a> &nbsp;·&nbsp;
+  <a href="#github-stats"><b>Stats</b></a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:00E5FF,100:000000" alt="" />
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## About
 
-I build full-stack web applications: responsive front ends with **HTML, CSS, JavaScript, jQuery and Bootstrap 5**, backed by **PHP and MySQL**. Outside the browser, I write **C#** in **Visual Studio**.
+<p align="center">
+  <img src="./assets/about.svg" width="100%" alt="whoami: Muhammad Hammad, full-stack developer. Frontend: HTML, CSS, JavaScript, jQuery, Bootstrap 5, GSAP, Three.js. Backend: PHP, MySQL, C#, ASP.NET Core, EF Core. Tools: Visual Studio 2022 and 2026, VS Code, Git and GitHub." />
+</p>
 
-My focus is practical software that works on real hosting, from storefronts to community and service platforms. The three live projects below are a good place to start.
+I work on both sides of a website: the responsive interface people see, and the **PHP, MySQL and .NET** systems that make it do something. Most projects start with the data; once I know what needs storing and how people will find it, I design the pages around it and add interaction where it genuinely helps.
 
-```php
-<?php
-// developersshammad — developer profile
-$hammad = [
-    'name'     => 'Muhammad Hammad',
-    'role'     => 'Full Stack Developer',
-    'frontend' => ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap 5'],
-    'backend'  => ['PHP', 'MySQL'],
-    'desktop'  => ['C#'],
-    'ide'      => ['Visual Studio 2022', 'Visual Studio 2026'],
-];
-```
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:00E5FF,100:000000" alt="" />
-
-## Tech Stack
+## Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap,php,mysql,cs,visualstudio&theme=dark&perline=9" alt="HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, MySQL, C#, Visual Studio" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap,threejs,php,mysql,cs,dotnet,visualstudio,vscode,git,github,vercel&theme=dark&perline=8" alt="HTML, CSS, JavaScript, jQuery, Bootstrap, Three.js, PHP, MySQL, C#, .NET, Visual Studio, VS Code, Git, GitHub, Vercel" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Front%20End-HTML%20·%20CSS%20·%20JS%20·%20jQuery%20·%20Bootstrap%205-00E5FF?style=flat-square&labelColor=000000" alt="Front end" />
-  <img src="https://img.shields.io/badge/Back%20End-PHP%20·%20MySQL-00E5FF?style=flat-square&labelColor=000000" alt="Back end" />
-  <img src="https://img.shields.io/badge/Desktop-C%23-00E5FF?style=flat-square&labelColor=000000" alt="Desktop" />
-  <img src="https://img.shields.io/badge/IDE-Visual%20Studio%202022%20·%202026-00E5FF?style=flat-square&labelColor=000000" alt="IDE" />
+  <img src="https://img.shields.io/badge/Frontend-HTML%20·%20CSS%20·%20JavaScript%20·%20jQuery%20·%20Bootstrap%205-000000?style=flat-square&labelColor=9CC8FF&color=111111" alt="Frontend" />
+  <img src="https://img.shields.io/badge/Motion%20%26%203D-GSAP%20·%20Three.js%20·%20Canvas%20·%20Web%20Audio-000000?style=flat-square&labelColor=9CC8FF&color=111111" alt="Motion and 3D" />
+  <img src="https://img.shields.io/badge/Backend-PHP%20·%20MySQL%20·%20C%23%20·%20ASP.NET%20Core-000000?style=flat-square&labelColor=9CC8FF&color=111111" alt="Backend" />
+  <img src="https://img.shields.io/badge/Tools-Visual%20Studio%202022%20%2F%202026%20·%20VS%20Code%20·%20Git-000000?style=flat-square&labelColor=9CC8FF&color=111111" alt="Tools" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:00E5FF,100:000000" alt="" />
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## Projects
+## Featured work
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <a href="https://fanhubplus.site.je/?i=2">
-        <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:000000,100:00394A&text=Fan%20Hub%20Plus&fontSize=26&fontColor=00E5FF&fontAlignY=55" alt="Fan Hub Plus" />
-      </a>
-      <!-- TODO (Hammad): replace the next line with a one-sentence description of Fan Hub Plus -->
-      <p>Live web project hosted on site.je.</p>
-      <p>
-        <a href="https://fanhubplus.site.je/?i=2"><img src="https://img.shields.io/badge/View%20Live-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=000000" alt="View Fan Hub Plus live" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://pc-centre.vercel.app/">
-        <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:000000,100:00394A&text=PC%20Centre&fontSize=26&fontColor=00E5FF&fontAlignY=55" alt="PC Centre" />
-      </a>
-      <p>A multi-page online tech store for laptops, monitors and storage. It includes product and catalogue pages with brand sections, a video hero, Help &amp; FAQs, contact and about pages, and login and sign-up screens.</p>
-      <p>
-        <img src="https://img.shields.io/badge/HTML-000000?style=flat-square&logo=html5&logoColor=00E5FF" alt="HTML" />
-        <img src="https://img.shields.io/badge/CSS-000000?style=flat-square&logo=css&logoColor=00E5FF" alt="CSS" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=00E5FF" alt="Vercel" />
-      </p>
-      <p>
-        <a href="https://pc-centre.vercel.app/"><img src="https://img.shields.io/badge/View%20Live-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=000000" alt="View PC Centre live" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://furshieldpet.site.je/furshield/index.php">
-        <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:000000,100:00394A&text=FurShield%20Pet&fontSize=26&fontColor=00E5FF&fontAlignY=55" alt="FurShield Pet" />
-      </a>
-      <!-- TODO (Hammad): replace the next line with a one-sentence description of FurShield Pet -->
-      <p>Pet-focused web project built with PHP.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PHP-000000?style=flat-square&logo=php&logoColor=00E5FF" alt="PHP" />
-      </p>
-      <p>
-        <a href="https://furshieldpet.site.je/furshield/index.php"><img src="https://img.shields.io/badge/View%20Live-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=000000" alt="View FurShield Pet live" /></a>
-      </p>
-    </td>
+    <td width="50%"><a href="https://fanhubplus.site.je/?i=2"><img src="./assets/projects/fan-hub-plus.svg" width="100%" alt="Fan Hub Plus — fandom platform built with PHP, MySQL, JavaScript and Bootstrap 5. Live." /></a></td>
+    <td width="50%"><a href="https://pc-centre.vercel.app/"><img src="./assets/projects/pc-centre.svg" width="100%" alt="PC Centre — dark storefront for PC parts built with HTML, CSS and JavaScript. Live." /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://furshieldpet.site.je/furshield/index.php"><img src="./assets/projects/furshield.svg" width="100%" alt="FurShield — pet-focused PHP and MySQL website. Live." /></a></td>
+    <td width="50%"><a href="https://github.com/developersshammad/hammads-portfolio"><img src="./assets/projects/portfolio.svg" width="100%" alt="Portfolio — Three.js hero, 3D skills sphere, 17 case studies and a working terminal." /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/developersshammad/hammads-portfolio"><img src="./assets/projects/creative-lab.svg" width="100%" alt="Creative Lab — Abyss, Solenne, Beatgrid and Flowfield: scroll stories, 3D product page, Web Audio drum machine and generative art." /></a></td>
+    <td width="50%"><a href="https://github.com/developersshammad/hammads-portfolio"><img src="./assets/projects/backend-builds.svg" width="100%" alt="Backend Builds — StockRoom, LinkLite, Clinic Booking API and Expense Tracker in PHP and C#." /></a></td>
   </tr>
 </table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:00E5FF,100:000000" alt="" />
+<p align="center"><sub>The first three are live. Click any card to open it.</sub></p>
 
-## GitHub Stats
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## More builds
+
+| Project | What it is | Built with |
+|---|---|---|
+| **Abyss** | Scroll dive to 10,935 m with a live depth gauge and torch-lit deep-sea animals | GSAP · ScrollTrigger · Canvas · SVG |
+| **Solenne** | Product page for a fictional watch that comes apart in 3D as you scroll | GSAP · CSS 3D · SVG |
+| **Beatgrid** | 16-step drum machine, every sound synthesised live | Web Audio API · Canvas |
+| **Flowfield** | Generative art studio with seeded Perlin noise and PNG export | Canvas · JavaScript |
+| **StockRoom** | Inventory system with stock movements and low-stock alerts | PHP 8 · MySQL · PDO |
+| **LinkLite** | URL shortener with click analytics and SVG charts | PHP 8 · MySQL |
+| **Clinic Booking API** | REST API with slot booking and double-booking protection | C# · ASP.NET Core 8 · EF Core |
+| **Expense Tracker** | Windows app for spending against a monthly budget | C# · WinForms · .NET 8 |
+| **Pulse Admin · SeatPick · Invoicely** | Dashboard, cinema booking and invoice generator | Bootstrap 5 · Chart.js · JavaScript |
+| **QuizCraft · Kanban Flow · TypeRush** | Quiz app, task board and typing test | JavaScript · Canvas |
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=developersshammad&show_icons=true&include_all_commits=true&rank_icon=github&bg_color=000000&title_color=00E5FF&icon_color=00E5FF&text_color=C9D1D9&border_color=0B3D4A&border_radius=10" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=developersshammad&layout=compact&langs_count=6&bg_color=000000&title_color=00E5FF&text_color=C9D1D9&border_color=0B3D4A&border_radius=10" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=developersshammad&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&bg_color=000000&title_color=9CC8FF&icon_color=9CC8FF&text_color=C9D1D9&border_color=1C1E22&border_radius=14" alt="GitHub stats for developersshammad" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=developersshammad&layout=compact&langs_count=8&bg_color=000000&title_color=9CC8FF&text_color=C9D1D9&border_color=1C1E22&border_radius=14" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=developersshammad&background=000000&border=0B3D4A&stroke=0B3D4A&ring=00E5FF&fire=00E5FF&currStreakNum=FFFFFF&currStreakLabel=00E5FF&sideNums=FFFFFF&sideLabels=8B949E&dates=8B949E&border_radius=10" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=developersshammad&background=000000&border=1C1E22&stroke=1C1E22&ring=9CC8FF&fire=9CC8FF&currStreakNum=EDEDEA&currStreakLabel=9CC8FF&sideNums=EDEDEA&sideLabels=8B949E&dates=63646A&border_radius=14" alt="Contribution streak" />
 </p>
 
-<!-- GitHub trophies: the public trophy server was down when this README was written.
-     When https://github-profile-trophy.vercel.app/?username=developersshammad loads again, uncomment:
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=developersshammad&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub trophies" />
-</p>
--->
-
-## Contribution Activity
-
-<!-- Generated daily inside this repository by .github/workflows/snake.yml -->
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/developersshammad/developersshammad/output/github-snake-dark.svg" alt="Contribution graph animation" />
+  <!-- Generated daily by .github/workflows/snake.yml into the "output" branch -->
+  <img width="100%" src="https://raw.githubusercontent.com/developersshammad/developersshammad/output/github-snake-dark.svg" alt="Contribution graph being eaten by a snake" />
 </p>
 
-<!-- Activity graph: the public server was down when this README was written.
-     When https://github-readme-activity-graph.vercel.app/graph?username=developersshammad loads again, uncomment:
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=developersshammad&bg_color=000000&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&area_color=00E5FF&hide_border=true" alt="Activity graph" />
-</p>
--->
-
-<!-- FOOTER -->
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00E5FF,40:002B33,100:000000&section=footer" alt="" />
+  <a href="mailto:hammad.10.muhammad@gmail.com"><img src="./assets/footer.svg" width="100%" alt="Let's build something. Email hammad.10.muhammad@gmail.com" /></a>
 </p>
