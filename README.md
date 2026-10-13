@@ -21,7 +21,7 @@
   <a href="mailto:hammad.10.muhammad@gmail.com"><img src="https://img.shields.io/badge/Email-hammad.10.muhammad%40gmail.com-9CC8FF?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=9CC8FF&color=000000" alt="Email hammad.10.muhammad@gmail.com" /></a>
   <a href="https://github.com/developersshammad/hammads-portfolio"><img src="https://img.shields.io/badge/Portfolio-View%20the%20code-9CC8FF?style=for-the-badge&logo=googlechrome&logoColor=000000&labelColor=9CC8FF&color=000000" alt="Portfolio" /></a>
   <a href="https://github.com/developersshammad?tab=followers"><img src="https://img.shields.io/github/followers/developersshammad?label=Follow&style=for-the-badge&logo=github&logoColor=000000&labelColor=9CC8FF&color=000000" alt="Follow on GitHub" /></a>
-  <img src="https://komarev.com/ghpvc/?username=developersshammad&label=Profile%20views&color=000000&style=for-the-badge&labelColor=9CC8FF" alt="Profile views" />
+  <a href="https://github.com/developersshammad"><img src="https://komarev.com/ghpvc/?username=developersshammad&label=PROFILE+VIEWS&color=9CC8FF&style=for-the-badge&abbreviated=true" alt="Profile views" /></a>
 </p>
 
 <p align="center">
