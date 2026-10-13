@@ -1,11 +1,16 @@
 <!--
   Profile README for github.com/developersshammad
   Theme: AMOLED black, silver text, one ice-blue accent (#9CC8FF), matching my portfolio.
+  The hero is rendered frame by frame from a Three.js scene; the skills sphere is an SVG with precomputed 3D keyframes.
   The animated SVGs in /assets are generated (text converted to paths), so they look the same on every device.
 -->
 
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Muhammad Hammad — Full-Stack Developer. I build digital experiences from interface to backend." />
+  <!-- Rendered from a real Three.js scene (seamless 120-frame loop). WebP where supported, GIF fallback. -->
+  <picture>
+    <source srcset="./assets/hero-3d.webp" type="image/webp" />
+    <img src="./assets/hero-3d.gif" width="100%" alt="Muhammad Hammad — Full-Stack Developer. A rotating 3D metallic core inside a wireframe shell with orbiting rings. I build digital experiences from interface to backend." />
+  </picture>
 </p>
 
 <p align="center">
@@ -40,6 +45,10 @@ I work on both sides of a website: the responsive interface people see, and the 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 ## Tech stack
+
+<p align="center">
+  <img src="./assets/skills-3d.svg" width="100%" alt="3D rotating sphere of technologies. Daily drivers: JavaScript, PHP 8, MySQL, C#, ASP.NET Core, Three.js, Bootstrap 5, GSAP. Also used: HTML5, CSS3, jQuery, Canvas, Web Audio, PDO, .NET 8, EF Core, WinForms, SQLite, REST APIs, Git, GitHub, VS Code, Visual Studio, Vercel, Chart.js." />
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap,threejs,php,mysql,cs,dotnet,visualstudio,vscode,git,github,vercel&theme=dark&perline=8" alt="HTML, CSS, JavaScript, jQuery, Bootstrap, Three.js, PHP, MySQL, C#, .NET, Visual Studio, VS Code, Git, GitHub, Vercel" />
@@ -101,6 +110,11 @@ I work on both sides of a website: the responsive interface people see, and the 
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=developersshammad&background=000000&border=1C1E22&stroke=1C1E22&ring=9CC8FF&fire=9CC8FF&currStreakNum=EDEDEA&currStreakLabel=9CC8FF&sideNums=EDEDEA&sideLabels=8B949E&dates=63646A&border_radius=14" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <!-- Generated daily by .github/workflows/3d-contrib.yml into profile-3d-contrib/ -->
+  <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D isometric contribution graph" />
 </p>
 
 <p align="center">
